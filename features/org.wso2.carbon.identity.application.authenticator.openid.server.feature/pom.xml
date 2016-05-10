@@ -46,10 +46,12 @@
         <dependency>
             <groupId>org.wso2.orbit.org.openid4java</groupId>
             <artifactId>openid4java</artifactId>
+            <version>${openid4java.wso2.version}</version>
         </dependency>
         <dependency>
             <groupId>net.sf.ehcache.wso2</groupId>
             <artifactId>ehcache</artifactId>
+            <version>${ehcache.version}</version>
         </dependency>
     </dependencies>
 
