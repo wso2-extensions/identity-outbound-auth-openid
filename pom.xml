@@ -21,11 +21,12 @@
     <parent>
         <groupId>org.wso2.carbon.identity</groupId>
         <artifactId>identity-extension-parent</artifactId>
-        <version>5.0.9-SNAPSHOT</version>
+        <version>5.1.0</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>identity-application-auth-openid</artifactId>
+    <version>5.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - OpenID Application Authenticator Feature Aggregator Module</name>
     <description>
@@ -34,9 +35,9 @@
     <url>http://wso2.org</url>
 
     <scm>
-        <url>https://github.com/wso2-extensions/identity-application-auth-openid.git</url>
-        <developerConnection>scm:git:https://github.com/wso2-extensions/identity-application-auth-openid.git</developerConnection>
-        <connection>scm:git:https://github.com/wso2-extensions/identity-application-auth-openid.git</connection>
+        <url>https://github.com/wso2-extensions/identity-outbound-auth-openid.git</url>
+        <developerConnection>scm:git:https://github.com/wso2-extensions/identity-outbound-auth-openid.git</developerConnection>
+        <connection>scm:git:https://github.com/wso2-extensions/identity-outbound-auth-openid.git</connection>
         <tag>HEAD</tag>
     </scm>
 
@@ -138,7 +139,7 @@
         <openid4java.wso2.version>1.0.0.wso2v2</openid4java.wso2.version>
         <openid4java.wso2.osgi.version.range>[1.0.0,2.0.0)</openid4java.wso2.osgi.version.range>
         <ehcache.version>1.5.0.wso2v3</ehcache.version>
-        <carbon.identity.provider.version>5.0.9-SNAPSHOT</carbon.identity.provider.version>
+        <carbon.identity.provider.version>5.1.0</carbon.identity.provider.version>
     </properties>
 
 </project>
