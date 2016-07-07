@@ -161,7 +161,7 @@ public class OpenIDAuthenticator extends AbstractApplicationAuthenticator implem
 
         } catch (OpenIDException e) {
             log.error("Error when processing response from OpenID Provider", e);
-            throw new AuthenticationFailedException(e.getMessage(), e);
+            throw new AuthenticationFailedException(e.getMessage(), context.getSubject(), e);
         }
     }
 
