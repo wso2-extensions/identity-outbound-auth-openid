@@ -103,7 +103,7 @@
                         <Export-Package>
                             !org.wso2.carbon.identity.application.authenticator.openid.internal,
                             org.wso2.carbon.identity.application.authenticator.openid.*;
-                            version="${carbon.identity.package.export.version}"
+                            version="${identity.application.authenticator.openid.export.version}"
                         </Export-Package>
                         <DynamicImport-Package>*</DynamicImport-Package>
                     </instructions>
