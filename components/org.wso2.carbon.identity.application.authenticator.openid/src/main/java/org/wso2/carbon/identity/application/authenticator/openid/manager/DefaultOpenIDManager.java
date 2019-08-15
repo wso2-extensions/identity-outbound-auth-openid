@@ -55,7 +55,7 @@ public class DefaultOpenIDManager implements OpenIDManager {
     // Smart OpenID Consumer Manager
     private static ConsumerManager consumerManager = new ConsumerManager();
 
-    private static Log log = LogFactory.getLog(DefaultOpenIDManager.class);
+    private static final Log log = LogFactory.getLog(DefaultOpenIDManager.class);
 
     @Override
     public String doOpenIDLogin(HttpServletRequest request, HttpServletResponse response, AuthenticationContext context) throws OpenIDException {

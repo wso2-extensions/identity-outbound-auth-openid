@@ -34,7 +34,7 @@ import java.util.Map;
  */
 public class YahooFetchResponse extends FetchResponse {
 
-    private static Log log = LogFactory.getLog(YahooFetchResponse.class);
+    private static final Log log = LogFactory.getLog(YahooFetchResponse.class);
 
     YahooFetchResponse(Map parameterMap) {
         this._parameters = new ParameterList(parameterMap);
