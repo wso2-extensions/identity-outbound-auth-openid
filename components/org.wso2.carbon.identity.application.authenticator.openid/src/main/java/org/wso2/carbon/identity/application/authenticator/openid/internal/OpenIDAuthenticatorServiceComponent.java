@@ -29,7 +29,7 @@ import org.wso2.carbon.identity.application.authenticator.openid.OpenIDAuthentic
  */
 public class OpenIDAuthenticatorServiceComponent {
 
-    private static Log log = LogFactory.getLog(OpenIDAuthenticatorServiceComponent.class);
+    private static final Log log = LogFactory.getLog(OpenIDAuthenticatorServiceComponent.class);
 
     protected void activate(ComponentContext ctxt) {
         try {

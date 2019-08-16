@@ -42,7 +42,7 @@ public class OpenIDAuthenticator extends AbstractApplicationAuthenticator implem
 
     private static final long serialVersionUID = 2878862656196592256L;
     private static final String OPENID_MANAGER = "OpenIDManager";
-    private static Log log = LogFactory.getLog(OpenIDAuthenticator.class);
+    private static final Log log = LogFactory.getLog(OpenIDAuthenticator.class);
 
     @Override
     public boolean canHandle(HttpServletRequest request) {
