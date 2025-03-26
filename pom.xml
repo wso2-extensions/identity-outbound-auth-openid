@@ -27,7 +27,7 @@
     <groupId>org.wso2.carbon.identity.outbound.auth.openid</groupId>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>identity-application-auth-openid</artifactId>
-    <version>5.1.7-SNAPSHOT</version>
+    <version>5.1.7</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - OpenID Application Authenticator Feature Aggregator Module</name>
     <description>
@@ -39,7 +39,7 @@
         <url>https://github.com/wso2-extensions/identity-outbound-auth-openid.git</url>
         <developerConnection>scm:git:https://github.com/wso2-extensions/identity-outbound-auth-openid.git</developerConnection>
         <connection>scm:git:https://github.com/wso2-extensions/identity-outbound-auth-openid.git</connection>
-        <tag>HEAD</tag>
+        <tag>v5.1.7</tag>
     </scm>
 
 
