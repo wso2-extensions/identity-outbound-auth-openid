@@ -203,7 +203,7 @@
 
     <properties>
         <!--Carbon framework version-->
-        <identity.framework.version>5.5.0</identity.framework.version>
+        <identity.framework.version>5.20.254</identity.framework.version>
         <identity.inbound.auth.openid.version>5.1.1</identity.inbound.auth.openid.version>
         <carbon.identity.package.import.version.range>[5.0.0, 6.0.0)</carbon.identity.package.import.version.range>
         <identity.outbound.auth.openid.export.version>${project.version}</identity.outbound.auth.openid.export.version>
